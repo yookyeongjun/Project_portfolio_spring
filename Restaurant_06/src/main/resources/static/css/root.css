@@ -1,0 +1,389 @@
+@charset "UTF-8";
+body {
+	overflow-x : hidden;
+	background-color : white !important;
+	color : black !important;
+}
+#gnb {
+	background-color: white;
+}
+.gnb {
+	width:80vw;
+ 	height:20vh;
+/* 	position : absolute; */
+	top : 50%;
+	left : 50%;
+	transform:translate(-50%, -250%);
+}
+.nav-link {
+	color : white;
+	text-decoration: none;
+}
+.navHead {
+	background-image : url(/img/Snowing.png);
+    background-repeat : no-repeat;
+    background-size : cover;
+}
+header {
+	position : relative;
+	width : 100vw;
+	height : 100vh;
+	background-image : url(/img/Main.avif);
+    background-repeat : no-repeat;
+    background-size : cover;
+}
+
+.up button,.up a,.up a:hover,.up button:hover {
+	color : white !important;
+	text-decoration: none !important;
+}
+.down button, .down a,.down a:hover,.down button:hover {
+	color : #212121 !important;
+	text-decoration: none !important;
+}
+
+.dropdown-menu a,.dropdown-menu a:hover{
+	color : #212121 !important;
+	text-decoration: none !important;
+}
+.content {
+	position : relative;
+}
+.header_body {
+	width:40vw;
+ 	height:40vh;
+	position : absolute;
+	top : 50%;
+	left : 50%;
+	transform:translate(-50%, -50%);
+	color : white;
+}
+
+.btn_search{
+  font-weight : 900;
+  font-family: "Font Awesome 5 Free";
+  background-color : transparent;
+  border : none;
+  cursor : pointer;
+  position : absolute;
+  right : 10px;
+  top : 40%;
+  transform : translatey(-50%);
+  color : #212121;
+}
+.btn_search::before{
+  content : "\f002";
+  width : 100%;
+  height : 100%;
+}
+
+.art {
+	margin-top: 90px;
+}
+.art_imgs {
+	display : block;
+}
+.left_img {
+	margin-right: 10px;
+}
+.right_img {
+	margin-left: 10px;
+}
+.art_right {
+	text-align : right;
+}
+
+.any_content{
+	margin-top : 120px;
+	margin-bottom : 40px;
+	display : block;
+	text-align : center;
+}
+
+img {
+	width : 200px;
+	height : 200px;
+}
+
+@font-face { /* BMJUA 폰트 적용 */
+  font-family: "BMJUA";
+  src: url("../font/KoPubWorld Batang Light.ttf") format("truetype");
+  font-weight: normal;
+} /* 이후 "BMJUA"으로 폰트 적용 가능 */
+
+* {
+  font-family: 'BMJUA';
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+.preserve-3d {
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    overflow-x: none;
+    background-color: #ffffff;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 12px;
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+}
+
+.back {
+    width: 33%;
+    height: 200px;
+    float: left;
+    background-color: #eeeeee;
+    border: 10px;
+    border-color: #ffffff;
+    border-style: solid;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    counter-increment: bc;
+    padding: 0px 5px 5px 5px;
+}
+
+.back:before {
+    content: counter(bc) "_";
+    position: absolute;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1260px) {
+    .back {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .back {
+        width: 100%;
+    }
+}
+
+.button_base {
+    margin: 0;
+    border: 0;
+    font-size: 18px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -100px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-user-select: none;
+    cursor: default;
+}
+
+.button_base:hover {
+    cursor: pointer;
+}
+/* ### ### ### 10 */
+/* ### ### ### 10 ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### */
+.b10_tveffect div {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.b10_tveffect div:nth-child(1) {
+    color: #000000;
+    background-color: #ffffff;
+    -webkit-transition: all 0.1s ease;
+    padding: 10px;
+    border: #000000 solid 1px;
+}
+
+.b10_tveffect div:nth-child(2) {
+    overflow: hidden;
+}
+
+.b10_tveffect div:nth-child(2) div {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 10px;
+    border: #000000 hidden 1px;
+}
+
+.b10_tveffect div:nth-child(2) div:nth-child(1) {
+    color: rgba(200, 120, 120, 0.8);
+    opacity: 0;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAGCAYAAAAL+1RLAAAAF0lEQVQIW2NkwAIYgWKS6OIgQQxAoUoAE4AAUnD/0ugAAAAASUVORK5CYII=) repeat;
+}
+
+.b10_tveffect div:nth-child(2) div:nth-child(2) {
+    color: rgba(120, 200, 120, 0.8);
+    opacity: 0;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAGCAYAAAAL+1RLAAAAF0lEQVQIW2NkwAIYgWKS6OIgQQxAoUoAE4AAUnD/0ugAAAAASUVORK5CYII=) repeat;
+}
+
+.b10_tveffect div:nth-child(2) div:nth-child(3) {
+    color: rgba(120, 120, 200, 0.8);
+    opacity: 0;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAGCAYAAAAL+1RLAAAAF0lEQVQIW2NkwAIYgWKS6OIgQQxAoUoAE4AAUnD/0ugAAAAASUVORK5CYII=) repeat;
+}
+
+.b10_tveffect:hover div:nth-child(1) {
+    color: white;
+    background-color: black;
+    transition: color 0s ease;
+    -webkit-transition: color 0s ease;
+    -moz-transition: color 0s ease;
+    transition: background-color 0.3s ease 0.2s;
+    -webkit-transition: background-color 0.3s ease 0.2s;
+    -moz-transition: background-color 0.3s ease 0.2s;
+}
+
+.b10_tveffect:hover div:nth-child(2) div:nth-child(1) {
+    animation: b10_tveffect_red 0.25s linear;
+    -webkit-animation: b10_tveffect_red 0.25s linear;
+    -moz-animation: b10_tveffect_red 0.25s linear;
+}
+
+.b10_tveffect:hover div:nth-child(2) div:nth-child(2) {
+    animation: b10_tveffect_green 0.25s linear;
+    -webkit-animation: b10_tveffect_green 0.25s linear;
+    -moz-animation: b10_tveffect_green 0.25s linear;
+}
+
+.b10_tveffect:hover div:nth-child(2) div:nth-child(3) {
+    animation: b10_tveffect_blue 0.25s linear;
+    -webkit-animation: b10_tveffect_blue 0.25s linear;
+    -moz-animation: b10_tveffect_blue 0.25s linear;
+}
+
+@-webkit-keyframes b10_tveffect_red {
+    from,
+    to {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+        -webkit-transform: scale(1.8, 1.6) translate(-10px, 3px) skewX(30deg);
+    }
+    50% {
+        opacity: 1;
+        -webkit-transform: scale(1.5, 1.2) translate(20px, 6px) skewX(5deg);
+    }
+    75% {
+        opacity: 1;
+        -webkit-transform: scale(0.9, 1.8) translate(-16px, -1px) skewX(-20deg);
+    }
+}
+
+@-webkit-keyframes b10_tveffect_green {
+    from,
+    to {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+        -webkit-transform: scale(1.3, 1.5) translate(3px, 6px) skewX(25deg);
+    }
+    50% {
+        opacity: 1;
+        -webkit-transform: scale(1.6, 1.1) translate(-16px, -5px) skewX(-15deg);
+    }
+    75% {
+        opacity: 1;
+        -webkit-transform: scale(1, 1.8) translate(18px, 4px) skewX(15deg);
+    }
+}
+
+@-webkit-keyframes b10_tveffect_blue {
+    from,
+    to {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+        -webkit-transform: scale(1.2, 1.4) translate(-10px, -3px) skewX(-25deg);
+    }
+    50% {
+        opacity: 1;
+        -webkit-transform: scale(1.9, 1.1) translate(16px, 3px) skewX(5deg);
+    }
+    75% {
+        opacity: 1;
+        -webkit-transform: scale(1.3, 2) translate(-30px, -3px) skewX(20deg);
+    }
+}
+
+@-moz-keyframes b10_tveffect_red {
+    from,
+    to {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+        transform: scale(1.8, 1.6) translate(-10px, 3px) skewX(30deg);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.5, 1.2) translate(20px, 6px) skewX(5deg);
+    }
+    75% {
+        opacity: 1;
+        transform: scale(0.9, 1.8) translate(-16px, -1px) skewX(-20deg);
+    }
+}
+
+@-moz-keyframes b10_tveffect_green {
+    from,
+    to {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+        transform: scale(1.3, 1.5) translate(3px, 6px) skewX(25deg);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.6, 1.1) translate(-16px, -5px) skewX(-15deg);
+    }
+    75% {
+        opacity: 1;
+        transform: scale(1, 1.8) translate(18px, 4px) skewX(15deg);
+    }
+}
+
+@-moz-keyframes b10_tveffect_blue {
+    from,
+    to {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+        transform: scale(1.2, 1.4) translate(-10px, -3px) skewX(-25deg);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.9, 1.1) translate(16px, 3px) skewX(5deg);
+    }
+    75% {
+        opacity: 1;
+        transform: scale(1.3, 2) translate(-30px, -3px) skewX(20deg);
+    }
+}
+
